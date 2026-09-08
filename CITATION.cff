@@ -9,6 +9,8 @@ authors:
     orcid: "https://orcid.org/0009-0007-1148-8661"
   - family-names: "Turkeltaub"
     given-names: "Tuvia"
+license: MIT
+repository-code: "https://github.com/jmilih-commits/dual-porosity-chalk-model"
 keywords:
   - dual-porosity
   - fractured chalk
