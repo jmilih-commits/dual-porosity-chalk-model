@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the citation below."
+title: "Python implementation of the dual-porosity model for fractured chalk"
+type: software
+version: 1.0.0
+authors:
+  - family-names: "Jmili"
+    given-names: "Hala"
+    orcid: "https://orcid.org/0009-0007-1148-8661"
+  - family-names: "Turkeltaub"
+    given-names: "Tuvia"
+keywords:
+  - dual-porosity
+  - fractured chalk
+  - variably saturated flow
+  - solute transport
+  - fracture-matrix exchange
+  - Python
