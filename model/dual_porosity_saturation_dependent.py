@@ -111,7 +111,7 @@ OMEGA_REFERENCE = {
 
 DISPERSIVITY_REFERENCE = {
     "40": 2.0,
-    "60": 0.2,
+    "60": 0.1,
     "NS": 1.0,
 }
 
