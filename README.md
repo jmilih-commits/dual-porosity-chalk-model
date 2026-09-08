@@ -1,5 +1,7 @@
 # Dual-Porosity Model for Fractured Chalk
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22660189.svg)](https://doi.org/10.5281/zenodo.22660189)
+
 Python implementation of a dual-porosity model for variably saturated water flow and conservative solute transport in fractured chalk.
 
 This repository contains the numerical model implementations used in the associated study, including a constant-parameter formulation and a saturation-dependent formulation in which the water-exchange coefficient and/or dispersivity vary with the modeled water state.
@@ -11,11 +13,15 @@ dual-porosity-chalk-model/
 ├── model/
 │   ├── dual_porosity_constant.py
 │   └── dual_porosity_saturation_dependent.py
-├── outputs/
+├── data/
 ├── README.md
 ├── requirements.txt
+├── CITATION.cff
+├── LICENSE
 └── .gitignore
 ```
+
+The `data/` directory does not contain the experimental dataset used in the study. Experimental data are managed separately from the public software repository.
 
 ## Model implementations
 
@@ -41,7 +47,7 @@ The numerical implementation retains the coupled mobile-immobile water and solut
 
 ## Requirements
 
-The archived version was run with Python 3.13 and the following package versions:
+Version 1.0.0 was run with Python 3.13 and the following package versions:
 
 ```text
 numpy==2.2.2
@@ -105,16 +111,26 @@ The saturation-dependent script saves results for both its internal constant ref
 
 ## Reproducibility
 
-The scripts in this repository are intended to preserve the numerical implementation used for the associated study. Plotting, observational-data comparison, and model-performance post-processing are kept separate from the core model implementation.
+The scripts in this repository preserve the numerical implementation used for the associated study. Plotting, observational-data comparison, and model-performance post-processing are kept separate from the core model implementation.
+
+The exact archived software release used for citation is **Version 1.0.0**:
+
+**DOI:** https://doi.org/10.5281/zenodo.22660189
+
+## Data availability
+
+The experimental dataset associated with the study is not included in this public software repository. It is handled separately from the code.
 
 ## Citation
 
-A formal software citation will be provided through the archived Zenodo release.
+If you use this software, please cite:
 
-If you use this code before the DOI is added, please cite the associated study and reference this repository.
+> Jmili, H., & Turkeltaub, T. (2026). *Python implementation of the dual-porosity model for fractured chalk* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.22660189
+
+## License
+
+This software is released under the MIT License. See `LICENSE` for details.
 
 ## Version
 
-The first archived release will be tagged:
-
-`v1.0.0`
+Current archived release: `v1.0.0`

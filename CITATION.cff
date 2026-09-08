@@ -3,6 +3,8 @@ message: "If you use this software, please cite it using the citation below."
 title: "Python implementation of the dual-porosity model for fractured chalk"
 type: software
 version: 1.0.0
+doi: "10.5281/zenodo.22660189"
+date-released: 2026-09-08
 authors:
   - family-names: "Jmili"
     given-names: "Hala"
